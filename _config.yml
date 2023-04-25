@@ -60,11 +60,14 @@ plugins:
 author:
   name   : "Giovanni De Bona"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : >
+   My awesome biography constrained to a sentence or two goes here. 
+   My awesome biography constrained to a sentence or two goes here.
+   My awesome biography constrained to a sentence or two goes here.
   links:
-    - label: "Linkedn"
-      icon: "fas fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/feed/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/giovanni-de-bona-24953311a/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/giovanniDB"
@@ -77,9 +80,9 @@ author:
 
 footer:
   links:
-    - label: "Linkedn"
-      icon: "fas fa-fw fa-linkedin-square"
-      url: "https://www.linkedin.com/feed/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin-square"
+      url: "https://www.linkedin.com/in/giovanni-de-bona-24953311a/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/giovanniDB"
@@ -98,10 +101,11 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
+      show_date: true
   # _pages
   - scope:
       path: "_pages"
